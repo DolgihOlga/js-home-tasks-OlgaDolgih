@@ -1,0 +1,27 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.contents:hover, #menu li:hover {
+    color: aqua;
+}
+
+#menu {
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+}
+
+#menu li {
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
